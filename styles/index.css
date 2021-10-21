@@ -8,7 +8,29 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 .drop-down {
     text-align: center;
+    transition: 0.8s;
+}
+.drop-down .title {
+    padding: 0.5em 2em;
+    white-space: nowrap;
+    border: 2px solid purple;
+    margin-bottom: 0;
+}
+.drop-down .title:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+.drop-down .options-container {
+    overflow-y: hidden;    
+}
+.drop-down .option {
+    border: 1px dashed purple;
+    border-radius: 10px;
+    margin: 5px;
+}
+.drop-down .option:hover {
+    background-color: purple;
+    cursor: pointer;
 }
