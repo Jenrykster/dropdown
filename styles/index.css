@@ -1,0 +1,14 @@
+body {
+    background-color: #000000;
+    color: snow;
+}
+main {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-down {
+    text-align: center;
+}
